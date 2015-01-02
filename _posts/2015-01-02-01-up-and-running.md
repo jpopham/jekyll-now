@@ -1,7 +1,9 @@
 ---
 layout: post
-title: Up and running!
+title: "Up and running!"
+published: true
 ---
+
 Although I registered with GitHub nearly two years ago, it was only today that I started using it.  I've been rummaging around with both blogging and programming for many years without any great sense of direction; but the conjunction of three things has led to this blog.  
 
 The  first thing was the need to write my first proper OSX app (of which more, perhaps, in a later post), happened to come shortly after Apple introduced the Swift programming language in the Summer of 2014.  As a consequence Swift was a natural choice for writing the app.
