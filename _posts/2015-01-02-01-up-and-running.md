@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Up and running!"
-page.date: 2015-01-02 22:30:00
+page.date: "2015-01-02 22:30:00"
 published: true
 ---
 
