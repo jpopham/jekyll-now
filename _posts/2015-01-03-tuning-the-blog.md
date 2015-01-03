@@ -14,6 +14,15 @@ Adding the hours and minutes to the date at the bottom of the post at first face
     Written on { { page.date | date: "%B %e, %Y" } }
 
 to  
+{% highlight ruby %}
+def show
+  @widget = Widget(params[:id])
+  respond_to do |format|
+    format.html # show.html.erb
+    format.json { render json: @widget }
+  end
+end
+{% endhighlight %}
 
     Written on `{{ page.date | date: "%B %e, %Y at %R" }}`
     
