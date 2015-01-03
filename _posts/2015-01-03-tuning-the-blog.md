@@ -31,9 +31,9 @@ date: 2015-01-03 03:10:00
 ###Adding the time at the top of each post in the index page.
 The index page is contained in index.html.  This contains a loop which Jekyll iterates through to include the summaries of each post.  To add the date and time to each post add
 
-	<div class="read-more">
-    		{ { post.date | date: "%B %e, %Y %R" } }
-    	</div>
+    <div class="read-more">
+        { { post.date | date: "%B %e, %Y %R" } }
+    </div>
         
 just above
 
