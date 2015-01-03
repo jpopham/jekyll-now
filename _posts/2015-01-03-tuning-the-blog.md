@@ -10,10 +10,15 @@ Although the instructions for setting up the blog mentioned in my prevous post w
 First up, the date and time of posts.  As forked from jekyll-now, the date of the post appears at the bottom of the page containing the whole post, but the time doesn't. In addition, neither the daate nor the time appears on the index page.
 
 ###Adding the time to the post page
-Adding the hours and minutes to the date at the bottom of the post at first face seems very simple.  Each post has the template in _layouts/post.html.  All that appears to beneeded is to change the line in _layouts/post.html   
-  Written on {{ page.date | date: "%B %e, %Y" }}
+Adding the hours and minutes to the date at the bottom of the post at first face seems very simple.  Each post has the template in _layouts/post.html.  All that appears to beneeded is to change the line in _layouts/post.html
+
+    Written on {{ page.date | date: "%B %e, %Y" }}
+
 to 
-  Written on {{ page.date | date: "%B %e, %Y at %R" }}
+
+    Written on {{ page.date | date: "%B %e, %Y at %R" }}
+    
+
 (%R is the Unix date formatter for 24 hour clock HH:MM formatting).  However all this does is to add "at 00:00" to the date of the post.  This is because the date of the post is taken from the the start of the filename of the post and there is no way to specify the hours and minutes in the file name.
 
 ### Forcing a time on the post
