@@ -43,3 +43,5 @@ just above
     </div>
     
 The class of "read-more" is just a temporary fix until I have time to trawl through styles.css to find a more appropriate one.
+
+Also note that there shouldn't be a space between the pairs of { and }, but I haven't yet figured out how to include them without them being interpreted.
