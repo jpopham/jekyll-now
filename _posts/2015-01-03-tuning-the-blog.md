@@ -50,4 +50,9 @@ just above
 The class of "read-more" is just a temporary fix until I have time to trawl through styles.css to find a more appropriate one.
 
 ###An aside about displaying the code blocks in this post
-The normal way to enter a code block in Markdown (I learned today) is to indent the lines by four or more spaces or at least one tab.  This indeed works fine and was used for some of this post - however this renders <span class="falseCode">&#x007b;&#x007b;</span> as <span class="falseCode">&amp;#x007b;&amp;#x007b;</span>
+The normal way to enter a code block in Markdown (I learned today) is to indent the lines by four or more spaces or at least one tab.  This indeed works fine and was used for some of this post - however this renders <span class="falseCode">&#x007b;&#x007b;</span> as <span class="falseCode">&amp;#x007b;&amp;#x007b;</span>.  Worse than this, if I put this type of line in a non-code block they were interpreted by Jekyll (and thus the examples above rendered the date)
+To get round this where lines contain <span class="falseCode">&#x007b;&#x007b;</span> and <span class="falseCode">&#x007d;&#x007d;</span> I've replaced <span class="falseCode">&#x007b;&#x007b;</span> and <span class="falseCode">&#x007d;&#x007d;</span>  with their HTMLEntity equivalents <span class="falseCode">&amp;#x007b;&amp;#x007b;</span> and <span class="falseCode">&amp;#x007d;&amp;#x007d;</span>.  In addition I've wrapped those lines in 
+   
+     <div class="falseCode"><pre>[followed by four spaces][rest of the line]</pre></div>
+     
+Finally I've added an entry in style.scss for <span class="falseCode">.falseCode</span>that replicates the formatting of the standard <span class="falseCode">code</span> (I don't yet understand what .scss files are about other than Jekyll generates .css files from them
