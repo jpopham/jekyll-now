@@ -15,7 +15,13 @@ to
 (%R is the Unix date formatter for 24 hour clock HH:MM formatting).  However all this does is to add "at 00:00" to the date of the post.  This is because the date of the post is taken from the the start of the filename of the post and there is no way to specify the hours and minutes in the file name.
 ### Forcing a time on the post
 To give a time to a post it is necessary to add a line to the Front Matter of a post (i.e the bit that lies between the two sets of three hyphens at the beginning of the post.  The line to be added is in the format:
-  date: YYYY-MM-DD HH:MM:SS
-  e.g.
-  date:2015-01-03 03:10:00
+
+date: YYYY-MM-DD HH:MM:SS
+e.g.
+
+date:2015-01-03 03:10:00
+
+###Adding the time at the top of each post in the index page.
+The index page is contained in index.html.  This contains a loop which Jekyll iterates through to include the summaries of each post.  To add the date and time to each post add 
+
 
