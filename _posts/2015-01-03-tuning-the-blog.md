@@ -37,7 +37,7 @@ The index page is contained in index.html.  This contains a loop which Jekyll it
         
 just above
 
-	<div class="entry">
+    <div class="entry">
         {{ post.content | truncatewords:40}}
     </div>
     
