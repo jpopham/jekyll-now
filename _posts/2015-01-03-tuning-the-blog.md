@@ -11,11 +11,11 @@ First up, the date and time of posts.  As forked from jekyll-now, the date of th
 ###Adding the time to the post page
 Adding the hours and minutes to the date at the bottom of the post at first face seems very simple.  Each post has the template in _layouts/post.html.  All that appears to beneeded is to change the line in _layouts/post.html
 
-    Written on &#x007b;&#x007b;  page.date | date: "%B %e, %Y" &#x007b;&#x007b;
+   Written on &#x007b;&#x007b;  page.date | date: "%B %e, %Y" &#x007d;&#x007d;
 
 to  
 
-Written on &#x007b;&#x007b; page.date | date: "%B %e, %Y at %R" &#x007b;&#x007b; 
+   Written on &#x007b;&#x007b; page.date | date: "%B %e, %Y at %R" &#x007d;&#x007d; 
 
     
 
