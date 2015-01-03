@@ -23,10 +23,10 @@ to
 ### Forcing a time on the post
 To give a time to a post it is necessary to add a line to the Front Matter of a post (i.e the bit that lies between the two sets of three hyphens at the beginning of the post.  The line to be added is in the format:
 
-date: YYYY-MM-DD HH:MM:SS
+    date: YYYY-MM-DD HH:MM:SS
 e.g.
 
-date: 2015-01-03 03:10:00
+    date: 2015-01-03 03:10:00
 
 ###Adding the time at the top of each post in the index page.
 The index page is contained in index.html.  This contains a loop which Jekyll iterates through to include the summaries of each post.  To add the date and time to each post add
