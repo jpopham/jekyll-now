@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Tuning (part 1 - adding the date and time to posts)"
-date: 2015-01-03 03:00:00
+date: 2015-01-03 13:50:00
 ---
 
 Although the instructions for setting up the blog mentioned in my prevous post were excellent, a few tweaks were needed behind the scenes.
