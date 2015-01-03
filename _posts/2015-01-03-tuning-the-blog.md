@@ -11,11 +11,11 @@ First up, the date and time of posts.  As forked from jekyll-now, the date of th
 ###Adding the time to the post page
 Adding the hours and minutes to the date at the bottom of the post at first face seems very simple.  Each post has the template in _layouts/post.html.  All that appears to beneeded is to change the line in _layouts/post.html
 
-    Written on {{ page.date | date: "%B %e, %Y" }}
+    Written on { { page.date | date: "%B %e, %Y" } }
 
 to  
 
-    Written on {{ page.date | date: "%B %e, %Y at %R" }}
+    Written on { { page.date | date: "%B %e, %Y at %R" } }
     
 
 (%R is the Unix date formatter for 24 hour clock HH:MM formatting).  However all this does is to add "at 00:00" to the date of the post.  This is because the date of the post is taken from the the start of the filename of the post and there is no way to specify the hours and minutes in the file name.
@@ -24,6 +24,7 @@ to
 To give a time to a post it is necessary to add a line to the Front Matter of a post (i.e the bit that lies between the two sets of three hyphens at the beginning of the post.  The line to be added is in the format:
 
     date: YYYY-MM-DD HH:MM:SS
+
 e.g.
 
     date: 2015-01-03 03:10:00
