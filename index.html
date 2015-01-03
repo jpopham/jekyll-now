@@ -8,10 +8,11 @@ published: true
     <article class="post">    
       
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
-
-      <div class="entry">
+    <div class="read-more">
         {{ post.date | date: "%B %e, %Y %R" }}
+    </div>
+      <div class="entry">
+
         {{ post.content | truncatewords:40}}
       </div>
       
