@@ -14,7 +14,7 @@ Adding the hours and minutes to the date at the bottom of the post at first face
 
     Written on {{ page.date | date: "%B %e, %Y" }}
 
-to 
+to  
 
     Written on {{ page.date | date: "%B %e, %Y at %R" }}
     
