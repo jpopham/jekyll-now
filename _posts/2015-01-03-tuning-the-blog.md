@@ -15,7 +15,7 @@ Adding the hours and minutes to the date at the bottom of the post at first face
 
 as far as I can tell this line is taking the posts date and piping it through a date formatter.  This needs to be changed to:  
 
-<div class="falseCode"Written on &#x007b;&#x007b; page.date | date: "%B %e, %Y at %R" &#x007d;&#x007d;</div> 
+<div class="falseCode">Written on &#x007b;&#x007b; page.date | date: "%B %e, %Y at %R" &#x007d;&#x007d;</div> 
 
     
 
@@ -48,4 +48,4 @@ just above
 The class of "read-more" is just a temporary fix until I have time to trawl through styles.css to find a more appropriate one.
 
 ###An aside about displaying the code blocks in this post
-The normal way to enter a code block in Markdown (I learned today) is to indent the lines by four or more spaces or at least one tab.  This indeed works fine and was used for some of this post - however this renders &#x007b;&#x007b; as &amp;#x007b;&amp;#x007b;
+The normal way to enter a code block in Markdown (I learned today) is to indent the lines by four or more spaces or at least one tab.  This indeed works fine and was used for some of this post - however this renders span class="falseCode">&#x007b;&#x007b;</span> as <span class="falseCode">&amp;#x007b;&amp;#x007b;</span>
