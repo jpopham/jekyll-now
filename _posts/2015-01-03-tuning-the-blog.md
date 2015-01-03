@@ -15,7 +15,7 @@ Adding the hours and minutes to the date at the bottom of the post at first face
 
 to  
 
-Written on &lcub; &lcub; page.date | date: "%B %e, %Y at %R" &rbrace;&rbrace;
+Written on &#x007b; &lcub; page.date | date: "%B %e, %Y at %R" &rbrace;&rbrace;
 
 
     Written on `{{ page.date | date: "%B %e, %Y at %R" }}`
