@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Up and running!"
+post.date: 2015-01-02 22:30:00
 published: true
 ---
 
