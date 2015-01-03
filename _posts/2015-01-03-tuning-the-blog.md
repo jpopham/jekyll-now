@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Tuning (part 1 - adding the date and time to posts)"
-date: 2015-01-03 03:00:00
+date: {}
+published: true
 ---
 
 Although the instructions for setting up the blog mentioned in my prevous post were excellent, a few tweaks were needed behind the scenes.
@@ -15,7 +16,7 @@ Adding the hours and minutes to the date at the bottom of the post at first face
 
 to  
 
-    Written on { { page.date | date: "%B %e, %Y at %R" } }
+    Written on **{{ page.date | date: "%B %e, %Y at %R" }}**
     
 
 (%R is the Unix date formatter for 24 hour clock HH:MM formatting).  However all this does is to add "at 00:00" to the date of the post.  This is because the date of the post is taken from the the start of the filename of the post and there is no way to specify the hours and minutes in the file name.
