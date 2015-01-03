@@ -38,7 +38,7 @@ The index page is contained in index.html.  This contains a loop which Jekyll it
 just above
 
     <div class="entry">
-        {{ post.content | truncatewords:40}}
+        { { post.content | truncatewords:40} }
     </div>
     
 The class of "read-more" is just a temporary fix until I have time to trawl through styles.css to find a more appropriate one.
