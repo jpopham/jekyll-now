@@ -12,7 +12,11 @@
 /**************/
 /* BASE RULES */
 /**************/
-
+.falseCode {
+	//
+	color: $darkGray;
+	background-color: $lightGray;
+}
 html {
   font-size: 100%;
 }
