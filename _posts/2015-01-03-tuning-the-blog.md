@@ -11,11 +11,11 @@ First up, the date and time of posts.  As forked from jekyll-now, the date of th
 ###Adding the time to the post page
 Adding the hours and minutes to the date at the bottom of the post at first face seems very simple.  Each post has the template in _layouts/post.html.  All that appears to be needed is to change the line in _layouts/post.html
 
-   <div class="falseCode">Written on &#x007b;&#x007b;  page.date | date: "%B %e, %Y" &#x007d;&#x007d;</div>
+<div class="falseCode">Written on &#x007b;&#x007b;  page.date | date: "%B %e, %Y" &#x007d;&#x007d;</div>
 
 as far as I can tell this line is taking the posts date and piping it through a date formatter.  This needs to be changed to:  
 
-   Written on &#x007b;&#x007b; page.date | date: "%B %e, %Y at %R" &#x007d;&#x007d; 
+<div class="falseCode"Written on &#x007b;&#x007b; page.date | date: "%B %e, %Y at %R" &#x007d;&#x007d;</div> 
 
     
 
@@ -35,16 +35,17 @@ The index page is contained in index.html.  This contains a loop which Jekyll it
 
     <div class="read-more">
     
-   &#x007b;&#x007b;post.date | date: "%B %e, %Y %R" &#x007d;&#x007d;
+   <div class="falseCode"&#x007b;&#x007b;post.date | date: "%B %e, %Y %R" &#x007d;&#x007d;</div>
 
     </div>
         
 just above
 
     <div class="entry">
-        { { post.content | truncatewords:40} }
+<div class="falseCode"&#x007b;&#x007b;post.content | truncatewords:40&#x007d;&#x007d;</div>
     </div>
     
 The class of "read-more" is just a temporary fix until I have time to trawl through styles.css to find a more appropriate one.
 
-Also note that there shouldn't be a space between the pairs of { and }, but I haven't yet figured out how to include them without them being interpreted.
+###An aside about displaying the code blocks in this post
+The normal way to enter a code block in Markdown (I learned today) is to indent the lines by four or more spaces or at least one tab.  This indeed works fine and was used for some of this post - however this renders &#x007b;&#x007b; as &amp;#x007b;&amp;#x007b;
