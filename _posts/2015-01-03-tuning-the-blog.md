@@ -35,7 +35,7 @@ The index page is contained in index.html.  This contains a loop which Jekyll it
 
     <div class="read-more">
     
-   <pre>    &#x007b;&#x007b;post.date | date: "%B %e, %Y %R" &#x007d;&#x007d;</pre>
+   <div class="falseCode"<pre>    &#x007b;&#x007b;post.date | date: "%B %e, %Y %R" &#x007d;&#x007d;</pre>
 
     </div>
         
@@ -43,7 +43,7 @@ just above
 
     <div class="entry">
 
-<div class="falseCode">&#x007b;&#x007b;post.content | truncatewords:40&#x007d;&#x007d;</div>
+<div class="falseCode"><pre>    &#x007b;&#x007b;post.content | truncatewords:40&#x007d;&#x007d;</pre></div>
 
     </div>
     
