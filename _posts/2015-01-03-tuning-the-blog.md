@@ -35,17 +35,17 @@ The index page is contained in index.html.  This contains a loop which Jekyll it
 
     <div class="read-more">
     
-   <div class="falseCode"&#x007b;&#x007b;post.date | date: "%B %e, %Y %R" &#x007d;&#x007d;</div>
+   <div class="falseCode">&#x007b;&#x007b;post.date | date: "%B %e, %Y %R" &#x007d;&#x007d;</div>
 
     </div>
         
 just above
 
     <div class="entry">
-<div class="falseCode"&#x007b;&#x007b;post.content | truncatewords:40&#x007d;&#x007d;</div>
+<div class="falseCode">&#x007b;&#x007b;post.content | truncatewords:40&#x007d;&#x007d;</div>
     </div>
     
 The class of "read-more" is just a temporary fix until I have time to trawl through styles.css to find a more appropriate one.
 
 ###An aside about displaying the code blocks in this post
-The normal way to enter a code block in Markdown (I learned today) is to indent the lines by four or more spaces or at least one tab.  This indeed works fine and was used for some of this post - however this renders span class="falseCode">&#x007b;&#x007b;</span> as <span class="falseCode">&amp;#x007b;&amp;#x007b;</span>
+The normal way to enter a code block in Markdown (I learned today) is to indent the lines by four or more spaces or at least one tab.  This indeed works fine and was used for some of this post - however this renders <span class="falseCode">&#x007b;&#x007b;</span> as <span class="falseCode">&amp;#x007b;&amp;#x007b;</span>
