@@ -55,4 +55,6 @@ To get round this where lines contain <span class="falseCode">&#x007b;&#x007b;</
    
      <div class="falseCode"><pre>[followed by four spaces][rest of the line]</pre></div>
      
-Finally I've added an entry in style.scss for <span class="falseCode">.falseCode</span>that replicates the formatting of the standard <span class="falseCode">code</span> (I don't yet understand what .scss files are about other than Jekyll generates .css files from them
+Finally I've added an entry in style.scss for <span class="falseCode"> .falseCode </span> that replicates the formatting of the standard <span class="falseCode">code</span>. I don't yet understand what .scss files are about other than Jekyll generates .css files from them.
+
+That was all much more complicated than I would have liked, but it works and will do until I find a better way.
