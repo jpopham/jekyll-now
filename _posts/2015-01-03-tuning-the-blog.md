@@ -15,7 +15,7 @@ Adding the hours and minutes to the date at the bottom of the post at first face
 
 to  
 {% highlight ruby %}
-Written on \{\{ page.date | date: "%B %e, %Y at %R" }}
+Written on &lbrace;&lbrace; page.date | date: "%B %e, %Y at %R" }}
 def show
   @widget = Widget(params[:id])
   respond_to do |format|
