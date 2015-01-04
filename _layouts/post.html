@@ -7,7 +7,7 @@ layout: default
 <article>
     <header id="post-header">
         <h1 id="post-title">{{ post.title }}</h1>
-        <h4 id="post-subtitle"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%b. %d, %Y' }}</time></h4>
+        <h4 id="post-subtitle"><time datetime="{{ post.date | date_to_xmlschema }}"></time></h4>
     </header>
 
     <div id="post-content">
@@ -43,7 +43,7 @@ layout: default
             {% assign tags_content = '' %}
         {% endif %}
 
-        <p id="post-meta">Posted {{ category_content }}{{ tags_content }}</p>
+        <p id="post-meta">Posted {{ category_content }}X{{ tags_content }}</p>
               <div class="date">
     Written on {{ page.date | date: "%B %e, %Y at %R" }}
   </div>
