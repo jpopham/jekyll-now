@@ -1,4 +1,10 @@
 - slug: github-pages
-  name: GitHub Pages on GitHub
+  name: GitHub Pages
 - slug: jekyll
-  name: Jekyll blog stuff
+  name: Jekyll
+- slug: categories
+  name: Categories
+- slug: tags
+  name: Tags
+- slug: frontmatter
+  name: Front Matter
