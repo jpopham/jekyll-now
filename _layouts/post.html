@@ -13,7 +13,7 @@ layout: default
 {% endfor %}
   <div class="date">
     Written on {{ page.date | date: "%B %e, %Y at %R" }}
-    {% for tag in post.tags %}
+    {% for tag in tags %}
     {{ tag }}
 {% endfor %}
   </div>
