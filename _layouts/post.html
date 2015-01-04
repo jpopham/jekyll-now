@@ -8,9 +8,9 @@ layout: default
   <div class="entry">
     {{ content }}
   </div>
-<ul class="list">{% for tag in post.tags %}
-    <li><a class="btn normal dark" href="{{ site.url }}/tags/#{{ tag }}">{{ tag }}</a></li>{% endfor %}
-</ul>
+{% for tag in post.tags %}
+    {{ tag }}
+{% endfor %}
   <div class="date">
     Written on {{ page.date | date: "%B %e, %Y at %R" }}
   </div>
