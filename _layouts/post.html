@@ -13,6 +13,9 @@ layout: default
 {% endfor %}
   <div class="date">
     Written on {{ page.date | date: "%B %e, %Y at %R" }}
+    {% for tag in post.tags %}
+    {{ tag }}
+{% endfor %}
   </div>
 
   {% include disqus.html disqus_identifier=page.disqus_identifier %}
