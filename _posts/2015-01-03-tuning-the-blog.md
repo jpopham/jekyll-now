@@ -66,7 +66,7 @@ I've found a much better way to do this:
 1. Before the block of code you are inserting put `<div><\div>` with a blank line before and after it
 2. On the next line indent by a tab (thus creating a code block) and put `{% raw %}{% raw %}{% endraw %}` on it
 3. Insert the code that you want to display with at least one tab at the beginning of each line
-4. On the last line of the code block put `{{"{%"}} endraw %}` on it
+4. On the last line of the code block put `{{ "{%" }} this %}` on it
 55. Put at least one blank line (that starts in the first column - i.e. no spaces or tabs on it) after the code block
 
 I've no idea why step 1. is necessary, but the method doesn't work without it. The code block gets rid of any need to make special arrangements for the HTML tags and the `{% raw %}{% raw %}{% endraw %}` and `{{"{% endraw %}"}}` get rid of any need to make special arrange ments for  `{% raw %} {{ }}  {% %}{% endraw %}`
