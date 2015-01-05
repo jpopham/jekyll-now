@@ -8,3 +8,7 @@
   name: Tags
 - slug: frontmatter
   name: Front Matter
+- slug: blink
+  name: blink(1)
+- slug: swift
+  name: Swift
