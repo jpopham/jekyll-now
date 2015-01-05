@@ -58,3 +58,10 @@ To get round this where lines contain <span class="falseCode">&#x007b;&#x007b;</
 Finally I've added an entry in style.scss for <span class="falseCode"> .falseCode </span> that replicates the formatting of the standard <span class="falseCode">code</span>. I don't yet understand what .scss files are about other than Jekyll generates .css files from them.
 
 That was all much more complicated than I would have liked, but it works and will do until I find a better way.
+
+*Update*
+
+I've found a much better way to do this:
+1. Before the block of code you are inserting put `<div><\div> with a blank line before and after it
+2. On the next line indent by a tab (thus creating a code block) and put {% raw %}{% raw %}{% endraw %} on it
+3. 
