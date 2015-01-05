@@ -12,3 +12,5 @@
   name: blink(1)
 - slug: swift
   name: Swift
+- slug: objective-c
+  name: Objective-C
