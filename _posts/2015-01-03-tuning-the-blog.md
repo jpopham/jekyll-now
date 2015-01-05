@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Tuning the blog - 1) adding the date and time to posts)"
+title: "Tuning the blog - 1) adding the date and time to posts"
 date: 2015-01-03 13:50:00
 category: blogging
 tags:
