@@ -5,8 +5,11 @@ date: 2015-01-02 22:30:00
 category: blogging
 tags: 
     - jekyll
+    - github-pages
     - swift
+    - objective-c
     - blink
+    
 ---
 
 Although I registered with GitHub nearly two years ago, it was only today that I started using it.  I've been rummaging around with both blogging and programming for many years without any great sense of direction; but the conjunction of three things has led to this blog.  
