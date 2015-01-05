@@ -59,7 +59,7 @@ Finally I've added an entry in style.scss for <span class="falseCode"> .falseCod
 
 That was all much more complicated than I would have liked, but it works and will do until I find a better way.
 
-*Update*
+***Update***
 
 I've found a much better way to do this:
 
