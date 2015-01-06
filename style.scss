@@ -228,8 +228,10 @@ text-align: center;
 }
 
 .site-info {
-  float: left;
-
+  // Amended jwp 2015-01-06 
+  //float: left;
+  float: center;
+  // end amendment
   @include mobile {
     float: none;
     display: block;
