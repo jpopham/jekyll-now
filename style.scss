@@ -33,11 +33,13 @@
 .postdate {
 	width: 40px;
 	text-align: center;
-	position: relative;
-	top: 0px;
-	left: -70px;
+	//position: relative;
+	//top: 0px;
+	//left: -70px;
 	float: left;
-	display: block;
+	//display: block;
+	clear:left;
+	padding-right:20px;
 }
 
 .postdate a {
@@ -69,7 +71,6 @@
 
 .postdate .year {
 	font-size: 12px;
-	float: none;
 }
 
 #post-meta {
