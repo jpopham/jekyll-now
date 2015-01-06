@@ -6,12 +6,12 @@ published: true
 <div class="posts">
   {% for post in site.posts %}
     <article class="post">   
-                  	<p class="postdate">
+       <div class="postdate">
 		<a href="{{ page.url }}">
       			{{ page.date | date:"<span class='day'>%d</span> <span class='month'>%b</span> <span class='year'>%Y</span>" }}
 		</a>
 	
-	</p>
+	</div>
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
       <div class="entry">
