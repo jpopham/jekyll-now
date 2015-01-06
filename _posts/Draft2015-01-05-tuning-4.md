@@ -11,3 +11,17 @@ tags:
  
 This looked like it was going to be straightforward, but it took me ages to sort this out.   Because of the nature of what Jekyll plugins are allowed in GitHub Pages, it is not possible to create tag and category pages.  [The solution from Stephan Groß](http://www.minddust.com/post/tags-and-categories-on-github-pages/) - slightly adapted by me - is to create a dummy file for each tag in the folder /blog/tags with a name like *tagname*.md with an entry like this example for the tag GitHub-pages:
 
+<div><\div>  
+
+    {% raw %}
+    ---
+    layout: blog_by_tag
+    title: 'Articles by tag: GitHub Pages'
+    desc: 'GitHub Pages'
+    tag: github-pages
+    permalink: github-pages/
+    ---
+    {% endraw %}
+
+
+Something similar was created for categories in the /blog/categories folder
