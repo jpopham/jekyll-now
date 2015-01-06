@@ -62,7 +62,9 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $helveticaNeue;
+  //Amendment jwp 2015-01-06
+  //font-family: $helveticaNeue;
+  font-family: $lucidaGrande;
   color: $darkerGray;
   font-weight: bold;
   
