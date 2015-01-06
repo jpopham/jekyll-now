@@ -241,12 +241,13 @@ text-align: center;
   margin: 0;
   color: $darkGray;
   cursor: pointer;
-  font-family: $lucidaGrande; 
+  font-family: $helveticaNeue; 
   font-weight: 300;
  // font-size: 28px;
+  font-size: 48px;
+  line-height: 76px;
   letter-spacing: 1px;
-  font-size: 24px;
-  line-height: 36px;
+
 }
 
 .site-description {
