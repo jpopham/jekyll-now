@@ -243,8 +243,10 @@ text-align: center;
   cursor: pointer;
   font-family: $lucidaGrande; 
   font-weight: 300;
-  font-size: 28px;
+ // font-size: 28px;
   letter-spacing: 1px;
+  font-size: 24px;
+  line-height: 36px;
 }
 
 .site-description {
