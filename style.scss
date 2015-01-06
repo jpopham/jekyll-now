@@ -181,6 +181,17 @@ img {
 }
 
 .masthead {
+// amendment jwp 2015-01=06
+/* Orange header */
+position: relative; height: 204px; 
+background-color: #FB9C44; 
+background-image: linear-gradient(to bottom, #FB9C44, #FC4831); 
+margin: 0px !important; padding: 0px !important; 
+text-align: center; 
+min-width: 980px;
+}
+//end amendment
+
   padding: 20px 0;
   border-bottom: 1px solid $lightGray;
   
