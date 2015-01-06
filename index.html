@@ -5,7 +5,9 @@ published: true
 
 <div class="posts">
   {% for post in site.posts %}
-    <article class="post">    
+    <article class="post">   
+                  	<p class="postdate">
+		<a href="{{ page.url }}">
       			{{ page.date | date:"<span class='day'>%d</span> <span class='month'>%b</span> <span class='year'>%Y</span>" }}
 		</a>
 	
@@ -13,8 +15,7 @@ published: true
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
       <div class="entry">
-              	<p class="postdate">
-		<a href="{{ page.url }}">
+
 
         {{ post.content | truncatewords:40}}
       </div>
