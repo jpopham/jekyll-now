@@ -30,7 +30,7 @@
 .label-danger[href]:focus,.label-danger[href]:hover{background-color:#c9302c}
 .label>a{color:#fff}
 
-.postdate {
+.postdate, .postdate>p {
 	width: 40px;
 	text-align: center;
 	//position: relative;
@@ -41,6 +41,7 @@
 	clear:left;
 	padding-right:20px;
 	margin-top:0px;
+	margin-bottom:0px;
 }
 
 .postdate a {
@@ -62,7 +63,7 @@
 
 .postdate .day {
 	font-size: 24px;
-	margin-bottom: 2px;
+	margin-bottom: 1px;
 }
 
 .postdate .month {
