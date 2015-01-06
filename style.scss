@@ -268,7 +268,9 @@ nav {
   margin-top: 23px; // @TODO: Vertically middle align
   font-family: $helveticaNeue; 
   font-size: 18px;
-  
+  // Added jwp 2015-0-06
+  margin-right:10px;
+  // end addition
   @include mobile {
     float: none;
     margin-top: 9px;
