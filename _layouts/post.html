@@ -9,14 +9,14 @@ layout: default
         <h1 id="post-title">{{ post.title }}</h1>
         <h4 id="post-subtitle"><time datetime="{{ post.date | date_to_xmlschema }}"></time></h4>
     </header>
-	<p class="postdate">
+
+    <div id="post-content">
+    	<p class="postdate">
 		<a href="{{ page.url }}">
 			{{ page.date | date:"<span class='day'>%d</span> <span class='month'>%b</span> <span class='year'>%Y</span>" }}
 		</a>
 		{{ page.date }}
 	</p>
-    <div id="post-content">
-    {{ page.date }}
         {{ content }}
 
         {% if post.category %}
