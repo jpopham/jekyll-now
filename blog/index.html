@@ -34,7 +34,7 @@ title: Articles
                         <li><a href="{{ paginator.previous_page_path }}/">Newer Posts &laquo;</a></li>
                     {% endif %}
                 {% else %}
-                    <li class="disabled"><span>&laquo;</span></li>
+                    <li class="disabled"><span>zzz&laquo;</span></li>
                 {% endif %}
                 {% for page in (1..paginator.total_pages) %}
                     {% if page == paginator.page %}
