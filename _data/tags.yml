@@ -30,3 +30,13 @@
   
 - slug: graphics
   name: Graphics
+
+-slug: github
+  name: GitHub
+
+-slug: ipad
+  name: iPad
+
+-slug: mobile
+  name: Mobile
+

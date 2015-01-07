@@ -5,3 +5,7 @@
 - slug: starting
   name: Getting Started
   color: '#1abc9c'
+
+- slug: software
+  name: Software
+  color: '#9cbc1a'
