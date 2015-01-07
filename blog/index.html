@@ -29,12 +29,12 @@ title: Articles
             <ul class="pagination">
                 {% if paginator.previous_page %}
                     {% if paginator.previous_page == 1 %}
-                        <li><a href="/blog/"></a>&laquo;  Newer Posts</a></li>
+                        <li><a href="/blog/">&laquo;</a></li>
                     {% else %}
-                        <li><a href="{{ paginator.previous_page_path }}/">&laquo; Newer Posts</a></li>
+                        <li><a href="{{ paginator.previous_page_path }}/">&laquo;</a></li>
                     {% endif %}
                 {% else %}
-                    <li class="disabled"><span></span></li>
+                    <li class="disabled"><span>&laquo;</span></li>
                 {% endif %}
                 {% for page in (1..paginator.total_pages) %}
                     {% if page == paginator.page %}
@@ -46,7 +46,7 @@ title: Articles
                     {% endif %}
                 {% endfor %}
                 {% if paginator.next_page %}
-                    <li><a href="{{ paginator.next_page_path }}/">Older Posts &raquo;</a></li>
+                    <li><a href="{{ paginator.next_page_path }}/">&raquo;</a></li>
                 {% else %}
                     <li class="disabled"><a href="#">&raquo;</a></li>
                 {% endif %}
