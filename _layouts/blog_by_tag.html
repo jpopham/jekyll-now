@@ -7,7 +7,7 @@ layout: default
     <h4 id="post-subtitle">Articles by tag</h4>
 </header>
 
-<div id="post-content">
+<div class ="postd">
     {% if site.tags[page.tag] %}
         {% for post in site.tags[page.tag] %}
             {% capture post_year %}{{ post.date | date: '%Y' }}{% endcapture %}
@@ -22,7 +22,7 @@ layout: default
                     </div><h3>{{ post_year }}</h3><div class="list-group">
                 {% endif %}
             {% endif %}
-			
+	<article class="post">		
        	<div class="postdate">
 		<a href="{{ page.url }}">
       			{{ post.date | date:"<span class='day'>%d</span> <span class='month'>%b</span> <span class='year'>%Y</span>" }}
@@ -36,6 +36,7 @@ layout: default
       </div>
       
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+      </article>
             {% if forloop.last %}
                 </div>
             {% endif %}
