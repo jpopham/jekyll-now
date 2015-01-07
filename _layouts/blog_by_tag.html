@@ -26,7 +26,20 @@ layout: default
             <a href="{{ post.url }}/" class="list-group-item">
                 <h4 class="list-group-item-heading">{{ post.title }}</h4>
             </a>
+       <div class="postdate">
+		<a href="{{ page.url }}">
+      			{{ post.date | date:"<span class='day'>%d</span> <span class='month'>%b</span> <span class='year'>%Y</span>" }}
+		</a>
+	
+	</div>
+      <h1 id="post-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
+      <div class="entry">
+
+        {{ post.content | truncatewords:100}}
+      </div>
+      
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
             {% if forloop.last %}
                 </div>
             {% endif %}
