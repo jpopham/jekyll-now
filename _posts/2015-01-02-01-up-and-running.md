@@ -22,4 +22,4 @@ The third thing was receiving a Christmas gift of a [blink(1)](blink1.thingM.com
 
 Putting all these things together meant "I'm going to try and write a Swift class/module/library (I'm always a bit sketchy about terminology) to control my blink(1) and I'm going to blog on my progress in GitHub Pages using Jekyll".
 
-I had one or two false starts, but I then found [this wonderful post](http://www.smashingmagazine.com/2014/08/01/build-blog-jekyll-github-pages/) from Barry Clark, which I followed absolutely - this is the result.
+I had one or two false starts, but I then found [this wonderful post](http://www.smashingmagazine.com/2014/08/01/build-blog-jekyll-github-pages/) from Barry Clark, which I followed absolutely - this is the result. 
