@@ -16,5 +16,5 @@ The next App I tried was [iOctocat - GitHub for iOS - Code and Development with 
 
 Next was [Codeanywhere by Ademptio d.o.o.](https://appsto.re/gb/VdbcA.i).  Free, no inApp purchases and able to post to GitHub - at least that's what it said on the tin.  The screenshots show a GitHub option, but it's hard to find.  You need to create a DevBox with the appropriate settings, which I haven't managed yet.  You need to create an account to use this, a basic account seems to be free.  I'm putting this aside for now, partly because I haven't cracked it yet, partly because it's way over the top for my current needs, partly as I'm wary of a solution that requires me to maintain another online account, but mainly because I found another App.
 
-The App I found and am using for this post is [Working Copy by Anders Borum](https://appsto.re/gb/xONC1.i).  This is free for reading GitHub files.  To be able to post there are two options: £0.69p
+The App I found and am using for this post is [Working Copy by Anders Borum](https://appsto.re/gb/xONC1.i).  This is free for reading GitHub files.  To be able to post there are two options: £0.69p to unlock for a short period of time or £6.99 to unlock permanently for all your iOS devices.  It works wonderfully well on the iPad and is very useable on the iPhone.
 
