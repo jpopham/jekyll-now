@@ -1,6 +1,6 @@
 - slug: github-pages
   name: GitHub Pages
-  
+
 - slug: jekyll
   name: Jekyll
   
@@ -31,11 +31,11 @@
 - slug: graphics
   name: Graphics
 
--slug: github
+- slug: github
   name: GitHub
 
--slug: ipad
+- slug: ipad
   name: iPad
 
--slug: mobile
+- slug: mobile
   name: Mobile
