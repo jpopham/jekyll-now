@@ -12,7 +12,10 @@
 /**************/
 /* ADDED BY JWP */
 /**************/
-blockquote { border-left: solid 3px #333333;}
+blockquote { 
+	border-left: solid 4px #333333;
+	margin-left: 10px;
+}
 p.site-description {
 	font-family: $helveticaNeue;
 	font-size: 16px;
