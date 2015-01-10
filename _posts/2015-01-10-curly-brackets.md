@@ -8,7 +8,7 @@ tags:
     - jekyll
     - markdown
 ---
-I mentioned in my previous post that *Drafts* was "corrupting" files containing curly brackets.   These brackets are part of the [Liquid templat img language](http://liquidmarkup.org) which is used by Jekyll to turn templates into html.
+I mentioned in my previous post that *Drafts* was "corrupting" files containing curly brackets.   These brackets are part of the [Liquid templating language](http://liquidmarkup.org) which is used by Jekyll to turn templates into html.
 
 >There are two types of markup in Liquid: Output and Tag.
 
