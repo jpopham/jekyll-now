@@ -12,6 +12,12 @@
 /**************/
 /* ADDED BY JWP */
 /**************/
+.previous {
+      float: left;
+}
+.next {
+       float: right;
+}
 blockquote { 
 	border-left: solid 10px #666633;
 	margin-left: 40px;
