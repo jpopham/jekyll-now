@@ -7,7 +7,7 @@ tags:
     - markdown
     - ipad
     - mobile
-    - front matter
+    - frontmatter
 ---
 I mentioned in my previous post that I'm now using [Working Copy](https://appsto.re/gb/xONC1.i) for posting to this blog and updating posts.  What I didn't say is that I'm not using it to *edit* the posts prior to them being uploaded.  
 
