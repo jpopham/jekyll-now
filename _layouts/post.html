@@ -55,6 +55,11 @@ layout: default
             Written on {{ page.date | date: "%B %e, %Y at %R" }}
         </div>
     </div>
+
+{% if page.previous:url %}
 <a href='{{ page.previous:url }}' class='previous'>&lt; Prev  </a> 
+{% endif %}
+{% if page.next:url %}
 <a href='{{page.next:url}}' class ='next'> Next &gt;</a>
+{% endif %}
 </article>
