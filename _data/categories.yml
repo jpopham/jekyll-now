@@ -2,8 +2,8 @@
   name: Blogging
   color: '#3498db'
   
-- slug: starting
-  name: Getting Started
+- slug: programming
+  name: Programming
   color: '#1abc9c'
 
 - slug: software
