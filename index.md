@@ -2,7 +2,7 @@
 layout: default
 published: true
 ---
-
+{% include catheader.html %}
 <div class="posts">
   {% for post in site.posts %}
     <article class="post">   
