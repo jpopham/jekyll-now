@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-{% for cat in site.data.catogeries %} {{ cat.name }}
+{% for cat in site.data.catogeries %} {{ cat.name }} {% end for %}
 <header id="post-header">
    
     <h4 id="post-subtitle">Articles in the category<span class="label" style="background-color:{{ category.color }}">{{ category.name }}</span></h4>
