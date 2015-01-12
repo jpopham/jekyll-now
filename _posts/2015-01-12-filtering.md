@@ -5,7 +5,7 @@ date: 2015-01-12 02:49:25
 category: blogging
 tags: [github-pages  ,categories ,tags           ,markdown ]
 ---
-The more posts ai write in this blog the more I see the need for filtering.  Now I think I see better the difference between categories and tags.
+The more posts I write in this blog the more I see the need for filtering.  Now I think I see better the difference between categories and tags.
 
 ### Tags
 Filtering by tag isn't really necessary, there are already a lot of them and the number will grow almost without limit over time.  Clicking on a tag at the bottom of a post is a sufficient way to see all posts that contain that tag.
