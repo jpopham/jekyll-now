@@ -12,6 +12,6 @@ I'm a retired public sector accountant who has been dabbling in programming and 
 
 ### Contact me
 
-[email me](mailto:john_popham@hotmail.com)
+you can email me at john underscore popham at hotmail dot com
 
 John Popham
