@@ -12,7 +12,7 @@ published: true
 		</a>
 	
 	</div>
-      <h1 id="post-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+      <h1 class="post-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
  {% if post.category %}
             {% for site_category in site.data.categories %}
                 {% if site_category.slug == post.category %}
