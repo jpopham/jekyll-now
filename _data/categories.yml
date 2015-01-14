@@ -6,6 +6,10 @@
   name: Programming
   color: '#1abc9c'
 
+- slug: scripting
+   name: Scripting
+   color: '#bc9c1a
+
 - slug: software
   name: Software
   color: '#9cbc1a'
