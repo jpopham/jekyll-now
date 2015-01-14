@@ -27,4 +27,4 @@ In my last post I mentioned that I preferred my list of categories to go along t
 	{% endraw %}
 
 
-I put this in `_layouts\cathead.html` and included it in `_layouts\blog_by_html`
+I put this in `_layouts/cathead.html` and included it in `_layouts/blog_by_html`
