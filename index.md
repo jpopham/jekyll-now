@@ -43,7 +43,7 @@ published: true
             {% assign tags_content = '' %}
         {% endif %}
 
-        <p id="post-meta">Posted {{ category_content }}{{ tags_content }}</p>
+        <p class="cat-list">Posted {{ category_content }}{{ tags_content }}</p>
       <div class="entry">
 
         {{ post.content | truncatewords:100}}
