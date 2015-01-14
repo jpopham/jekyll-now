@@ -18,7 +18,7 @@ The  first thing was the need to write my first proper OSX app (of which more, p
 
 The second thing was accidentally coming across GitHub Pages and Jekyll - a simple way of publishing static web pages, particularly blogs. 
 
-The third thing was receiving a Christmas gift of a [blink(1)](blink1.thingM.com) - a programable twin LED mounted on a USB connector.  This comes with much [open source software and classes for various programming languages]( https://github.com/todbot/blink1), but doesn't yet have anything in Swift.  Now I know that Swift is specifically designed to link easily with Objective-C modules (and therefore with the C modules provided), but the devil in me wants to write as much as possible in Swift.
+The third thing was receiving a Christmas gift of a [blink(1)](http://blink1.thingM.com) - a programable twin LED mounted on a USB connector.  This comes with much [open source software and classes for various programming languages]( https://github.com/todbot/blink1), but doesn't yet have anything in Swift.  Now I know that Swift is specifically designed to link easily with Objective-C modules (and therefore with the C modules provided), but the devil in me wants to write as much as possible in Swift.
 
 Putting all these things together meant "I'm going to try and write a Swift class/module/library (I'm always a bit sketchy about terminology) to control my blink(1) and I'm going to blog on my progress in GitHub Pages using Jekyll".
 
