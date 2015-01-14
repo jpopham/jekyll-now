@@ -11,5 +11,20 @@ In my last post I mentioned that I preferred my list of categories to go along t
 
 <div></div>
 
+	{% raw %}
+	<p id="post-meta">
+		<a href="/"><span class="label" style="color:black">All</span></a>
+		{% for theCategory in site.data.categories %}
+			<a href="/blog/category/{{theCategory.["slug"]}}">
+				{% if {{theCategory.["slug"]}} == {{page.category}} %}
+					<span class="label" style='color:#ffffff;background-color:{{theCategory.["color"]}}'>
+				{% else %}
+					<span class= "label" style='color:{{theCategory.["color"]}}'>
+				{% endif %}
+			{{theCategory.["name"]}}</span></a>
+		{% endfor %}
+	</p>
+	{% endraw %}
+
 
 I put this in `_layouts\cathead.html` and included it in `_layouts\blog_by_html`
