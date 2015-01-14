@@ -23,6 +23,6 @@ In my last post I mentioned that I preferred my list of categories to go along t
 			{{theCategory.["name"]}}</span></a>
 		{% endfor %}
 	</p>
-	{% raw %}
+	{% endraw %}
 
 I put this in `_layouts\cathead.html` and included it in `_layouts\blog_by_html`
