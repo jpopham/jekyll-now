@@ -388,7 +388,7 @@ text-align: center;
 .site-info {
   // Amended jwp 2015-01-06 
   //float: left;
-  float: center;
+  float: none;
   // end amendment
   @include mobile {
     float: none;
