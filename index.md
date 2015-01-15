@@ -51,5 +51,5 @@ published: true
       
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More...</a>
     </article>
-  {% endfor %}z
+  {% endfor %}
 </div>
