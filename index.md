@@ -49,7 +49,7 @@ published: true
         {{ post.content | truncatewords:100}}
       </div>
       
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More...</a>x
-    </article>y
-  {% endfor %}
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More...</a>
+    </article>
+  {% endfor %}z
 </div>
