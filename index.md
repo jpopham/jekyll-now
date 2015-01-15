@@ -17,12 +17,7 @@ published: true
 			{% if post.category %}
 				{% for site_category in site.data.categories %}{% if site_category.slug == post.category %}{% assign category = site_category %}{% endif %}{% endfor %}
 				{% if category %}
-					{% capture category_content %} in 
-					<span class="label" style="background-color:{{ category.color }}">
-						<a href="/blog/category/{{ category.slug }}/">
-							{{ category.name }}
-						</a>
-					</span>{% endcapture %}
+					{% capture category_content %} in <span class="label" style="background-color:{{ category.color }}"><a href="/blog/category/{{ category.slug }}/">{{ category.name }}</a></span> {% endcapture %}
 				{% endif %}
 			{% else %}
 				{% assign category_content = '' %}
