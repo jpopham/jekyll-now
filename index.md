@@ -46,10 +46,10 @@ published: true
         <p class="cat-list">Posted {{ category_content }}{{ tags_content }}</p>
       <div class="entry">
 
-        {{ post.content | truncatewords:100}}z
+        {{ post.content | truncatewords:100}}
       </div>
       
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More...</a>
-    </article>
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More...</a>x
+    </article>y
   {% endfor %}
 </div>
