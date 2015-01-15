@@ -32,7 +32,7 @@ published: true
 				{% assign category_content = '' %}
 			{% endif %}
 			{% if post.tags.size > 0 %}
-				{% capture tags_content %} with 
+				{% capture tags_content %}  with 
 					{% if post.tags.size == 1 %}
 						<i class="fa fa-tag"></i>
 					{% else %}
