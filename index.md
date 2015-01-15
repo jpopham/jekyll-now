@@ -5,7 +5,7 @@ published: true
 {% include catheader.html %}
 <div class="posts">
 	{% for post in site.posts %}
-		<article class="post">   
+		
 			<div class="postdate">
 				<a href="{{ page.url }}">
 					{{ post.date | date:"<span class='day'>%d</span> <span class='month'>%b</span> <span class='year'>%Y</span>" }}
@@ -51,6 +51,6 @@ published: true
 				{{ post.content | truncatewords:100}}
 			</div>
 			<a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More...</a>
-		</article>
+		
 	{% endfor %}
 </div>
