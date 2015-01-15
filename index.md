@@ -46,7 +46,7 @@ published: true
         <p class="cat-list">Posted {{ category_content }}{{ tags_content }}</p>
       <div class="entry">
 
-        {{ post.content | truncatewords:100}}
+        {{ post.content | truncatewords:100}}z
       </div>
       
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More...</a>
