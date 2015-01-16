@@ -1,6 +1,10 @@
 - slug: blogging
   name: Blogging
   color: '#3498db'
+
+- slug: web
+  name: Web
+  color: '#98db34'  
   
 - slug: programming
   name: Programming
