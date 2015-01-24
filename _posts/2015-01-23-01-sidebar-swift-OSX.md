@@ -3,6 +3,9 @@ layout: post
 title: "A Sidebar with collapsable sub-views for OSX in Swift"
 date: 2015-01-23 17:30:00 
 category: Programming
+tags:
+	- osx
+	- swift
 ---
 
 This is a long post so a table of content:
