@@ -11,8 +11,9 @@ tags:
 This is a long post so a table of content:
 
 - [Getting Started](#getting-started)
-- [The DisclosureView Controller](#the-disclosureview-controller)	
+- [The DisclosureViewController](#the-disclosureviewcontroller)	
 	- [Creating the DiclosureViewController](#creating-the-disclosureviewcontroller)
+	- [Providing a means of communicating between the views](#providing-a-means-of-communicating-between-the-views)
 	- [Providing a title for the panel](#providing-a-title-for-the-panel)
 	- [Setting constraints for the Disclosure View](#setting-constraints-for-the-disclosure-view)
 	- [Adding functionality to the Disclosure View](#adding-functionality-to-the-disclosure-view)
