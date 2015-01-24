@@ -19,8 +19,8 @@ paginate_path: '/blog/:num'
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble: 
-  email: 
-  facebook: 
+  email: xx
+  facebook: www
   flickr: 
   github: jpopham
   instagram: 
