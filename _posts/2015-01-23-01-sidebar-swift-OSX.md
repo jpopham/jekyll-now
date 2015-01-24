@@ -19,7 +19,7 @@ This is a long post so a table of content:
 	- [Adding functionality to the Disclosure View](#adding-functionality-to-the-disclosure-view)
 - [Creating the view controller for the main view](#creating-the-view-controller-for-the-main-view)
 - [Creating the panel views](#creating-the-panel-views)
-- [Putting it all together in the AppDelegate and MainMenu.xib](#putting-it-all-together-in-the-AppDelegate-and-mainmenuxib)
+- [Putting it all together in the AppDelegate and MainMenu.xib](#putting-it-all-together-in-the-appdelegate-and-mainmenuxib)
 	- [Building MainMenu.xib](#building-mainmenuxib)
 	- [Adding to AppDelegate.swift](#adding-to-appdelegateswift)
 
