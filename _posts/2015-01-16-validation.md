@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Passing Validation"
+description:"Testing for valid HTML and CSS"
 date: 2015-01-16 16:30:00 
 category: web
 tags: [css, html, validation]

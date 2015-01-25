@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 'A small problem with Drafts'
+description: "The iOS app Drafts handles curly brackets in an unfortunate way"
 date: 2015-01-10 13:50
 category: software
 tags: 

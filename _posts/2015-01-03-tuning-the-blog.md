@@ -2,6 +2,7 @@
 layout: post
 title: "Tuning the blog - 1) adding the date and time to posts"
 date: 2015-01-03 13:50:00
+description: "Adding the date and time to GitHub Pages blog posts"
 category: blogging
 tags:
 - jekyll

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "A Sidebar with collapsable sub-views for OSX in Swift"
+description: "A walkthrough of creating an OSX project in Xcode, written in Swift with close-able side panels"
 date: 2015-01-23 17:30:00 
 category: programming
 tags:

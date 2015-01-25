@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Going Mobile"
+descrition: "Selecting iOS software for editing a GitHub Pages blog"
 date: 2015-01-07 23:50:00 
 category: software
 tags: 

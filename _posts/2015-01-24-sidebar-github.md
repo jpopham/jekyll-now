@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Sidebar GitHub Repository"
+description: "The Sidebar OSX project is now available on GitHub"
 date: 2015-01-24 13:11:00 
 category: programming
 tags: 

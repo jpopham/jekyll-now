@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 'Filtering'
+description: "When to use categories and when to use tags in a blog"
 date: 2015-01-12 02:49:25
 category: blogging
 tags: [github-pages  ,categories ,tags           ,markdown ]
