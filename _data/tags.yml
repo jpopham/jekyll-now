@@ -28,6 +28,12 @@
 - slug: css
   name: CSS
   
+- slug: html
+  name: HTML
+  
+- slug: validation
+  name: Validation
+    
 - slug: graphics
   name: Graphics
 
@@ -42,4 +48,9 @@
 
 - slug: markdown
   name: Markdown 
+  
+- slug: osx
+  name: OSX
 
+- slug: swift
+  name: Swift

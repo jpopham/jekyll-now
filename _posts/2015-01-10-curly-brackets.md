@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 'What are these curly brackets?'
+description: "A brief explanation of the Liquid templating language"
 date: 2015-01-10 14:01:47
 category: software
 tags:

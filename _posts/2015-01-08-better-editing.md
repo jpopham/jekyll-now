@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Better Editing"
+description: "Using the iOS app Drafts in conjunction with Working Copy to write blog posts"
 date: 2015-01-09 09:30
 category: software
 tags: 

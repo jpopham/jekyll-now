@@ -12,6 +12,15 @@
 /**************/
 /* ADDED BY JWP */
 /**************/
+
+.centreshadowed {
+	box-shadow: 10px 10px 30px #444444;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:5px;
+	margin-bottom:5px;
+}
 .previous {
       float: left;
 }
@@ -136,14 +145,14 @@ p.site-description {
 	width: 40px;
 	text-align: center;
 	//position: relative;
-	//top: 0px;
+	//top: 5px;
 	//left: -70px;
 	float: left;
 	//display: block;
 	clear:left;
 	padding-left:6px;
 	padding-right:6px;
-	margin-top:0px;
+	margin-top:5px;
 	margin-bottom:0px;
 	border: 1px solid;
 	border-radius: 10px;
@@ -169,17 +178,17 @@ p.site-description {
 }
 
 .postdate .day {
-	font-size: 20px;
+	font-size: 18px;
 	margin-bottom: -6px;
 }
 
 .postdate .month {
-	font-size: 14px;
+	font-size: 12px;
 	margin-bottom: -4px;
 }
 
 .postdate .year {
-	font-size: 12px;
+	font-size: 10px;
 }
 
 #post-meta, .cat-list {
