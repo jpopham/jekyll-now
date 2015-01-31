@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Creating the Category index'
-description: "Adding coloured category links to the summary page of the blog"
+description: 'Adding coloured category links to the summary page of the blog'
 date: 2015-01-14 09:18:30
 category: scripting
 tags: 
